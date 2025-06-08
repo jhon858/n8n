@@ -4,14 +4,14 @@ services:
     env: docker
     plan: free
     branch: master
-    dockerfilePath: ./docker/imagens/Dockerfile
+    dockerfilePath: ./docker/images/Dockerfile
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
-        value: admin
+        value: administrador
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: admin
+        value: administrador
       - key: N8N_HOST
         value: 0.0.0.0
       - key: N8N_PORT
